@@ -5,12 +5,12 @@
     "dependencies": {
         "core": "*",
         "radio": "*",
-        "microphone": "*"
+        "microphone": "*",
+        "pxt-flexFX": "github:grandpabond/pxt-flexfx#master"
     },
     "files": [
         "README.md",
-        "main.blocks",
-        "main.ts"
+        "moody.ts"
     ],
     "testFiles": [
         "test.ts"
@@ -23,5 +23,5 @@
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }
